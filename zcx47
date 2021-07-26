@@ -1,0 +1,37 @@
+<html>
+<body>
+<h1>Hai Golongan tersesat</h1>
+<img src="https://1.bp.blogspot.com/-q0hWWSa9_rE/YP41n-Z0MKI/AAAAAAAAOQ4/i7Ns0JAeCv8bHUHefHDOMAMqYW5SQ3TqQCLcBGAsYHQ/s320/picture2.jpeg">
+<h1>Disini yang paling tersesat siapa?</h1>
+<button id="btn_Alam" onclick="alert(&quot;Bener,aslinya pakboy &quot;)">Alam</button>
+<button id="btn_Rafi" onclick="alert(&quot;Bener banget klo yang ini&quot;)">Rafi</button>
+<button id="btn_Afandi" onclick="alert(&quot;wah bener banget ini mah&quot;)">Afandi</button>
+<button id="btn_Baim" onclick="alert(&quot;Bener, yang paling dzolim&quot;)">Baim</button><button id="btn_Satrio" onclick="alert(&quot;Beuh jelas&quot;)">Satrio</button>
+<button id="btn_Renaldi" onclick="alert(&quot;ini nih yang paling bahaya&quot;)">Renaldi</button>
+<button id="btn_Nizam" onclick="Nizam(this)"  
+style="position:absolute">Nizam</button>
+    
+    <script>
+        function Nizam(id){
+            var Alam = document.getElementById('btn_Alam');
+            var Rafi = document.getElementById('btn_Rafi');
+            var Afandi = document.getElementById('btn_Afandi');
+            var Baim = document.getElementById('btn_Baim');
+            var Satrio = document.getElementById('btn_Satrio');
+            var Renaldi = document.getElementById('btn_Renaldi');
+            var i = Math.floor(Math.random()*300)+1;
+            var j = Math.floor(Math.random()*100)+Nizam.offsetTop;
+            id.style.left = i+'px';
+            id.style.top = j+'px';
+        }
+    </script>
+</body></html>
+
+
+
+
+
+
+
+
+
